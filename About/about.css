@@ -22,8 +22,16 @@ body{
 	padding-bottom: 20px;
 }
 
+.col-md-2{
+	margin-bottom: 20px;
+}
+
+.col-md-4{
+	margin-bottom: 20px;
+}
+
 svg{
-	width: 50%;
+	width: 64px;
 }
 
 img{
