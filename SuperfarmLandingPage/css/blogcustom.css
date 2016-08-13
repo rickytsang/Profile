@@ -1,0 +1,32 @@
+.features h3 {
+	font-size: 1.167em;
+}
+
+.features {
+	font-size: 1.500em;
+}
+
+#howitword {
+	font-size: 1.500em;
+}
+
+#signupnow {
+	font-size: 1.5em;
+}
+
+
+
+@media (max-width: 767px){
+	.features h3{
+		font-size: 1.500em;
+	}
+	.features {
+		font-size: 1.250em;
+	}
+	#how-it-works {
+		background-image: none;
+	}
+	#header {
+		height: 50px;
+	}
+}
