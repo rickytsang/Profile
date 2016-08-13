@@ -5,5 +5,10 @@ body {
 }
 
 .jombotron {
-	background-image: url(Jumbotron.jpg);
+	position: relative;
+	background: #000 url("Jumbotron.jpg") center center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
 }
