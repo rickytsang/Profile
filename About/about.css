@@ -1,0 +1,26 @@
+#about{
+	padding-top: 100px;
+	text-align: center;
+}
+
+#about p{
+	padding-top: 50px;
+}
+
+#skills{
+	padding-top: 50px;
+	text-align: center;
+}
+
+#languages{
+	padding-top: 50px;
+	text-align: center;
+}
+
+svg{
+	width: 50%;
+}
+
+img{
+	width: 64px;
+}
