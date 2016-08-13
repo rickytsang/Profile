@@ -4,7 +4,7 @@ body {
   padding-bottom: 20px;
 }
 
-.jombotron {
+.jumbotron {
 	position: relative;
 	background: #000 url("Jumbotron.jpg") center center;
 	width: 100%;
