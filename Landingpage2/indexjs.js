@@ -1,6 +1,5 @@
-$(document).ready(function(){
-	$('.carousel').carousel({
-		pause: true,
-		interval: false
+$(document).ready({
+	$('#prev').click(fucntion(){
+			$('#product3').show();
 	});
 });
