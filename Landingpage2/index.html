@@ -1,10 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="indexcss.css" rel="stylesheet">
+		<link href="owl-carousel/owl.transitions.css" rel="stylesheet">
+		<script src="owl-carousel/owl.carousel.min.js"></script>
+		<script src="indexjs.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -14,23 +18,48 @@
         </div>
       </div>
     </nav>
-		<div class="jumbotron">
+    <
+		<div id="carouselimgs" class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="1080.jpeg">
+			</div>
+			<div class="item">
+				<img src="1080-2.jpeg">
+			</div>
+			<div class="item">
+				<img src="1080-3.jpeg">
+			</div>
+		</div> 
+		
+		<div class="row" id="overlap">
 			<div class="container">
+				<div class="col-md-1 words">
+					<a href="#"></a>
+					<span></span>
+					<h2>01</h2>
+					<a href="#"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
+				</div>
+				<div class="col-md-1 words">
+					<h2>|</h2>
+				</div>
+				<div class="col-md-4 words">
+					<h3>NEW COLLECTIONS</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<br>
+					<p><button type="button" class="btn btn-primary">FIND OUT</button></p>
+				</div>
+				<div class="col-md-2 words">
+					<a href="#"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+					<a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+				</div>
+				<div class="col-md-4">
+					<img src="400-2.jpeg">
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-2">
-				
-			</div>
-			<div class="col-md-4">
-				<h3>NEW COLLECTIONS</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-4">
-				<img class="overlap" src="400-2.jpeg"/>
-			</div>
+		<div class="row" id="words">
+			
 		</div>
+			
 	</body>
 </html>
