@@ -3,10 +3,13 @@ body {
   padding-bottom: 20px;
 }
 
-#owl-demo .item img{
-	display: block;
+.jumbotron {
+	position: relative;
+	background: #000 url("Wine.jpg") no-repeat center center;
 	width: 100%;
-	height: auto;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
 }
 
 #overlap {
